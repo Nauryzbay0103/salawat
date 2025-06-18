@@ -20,7 +20,7 @@ const CartStickyButton = ({ total, oldTotal, onClick, isVisible = true }: CartSt
         >
             <button
                 onClick={onClick}
-                className='w-full h-[3rem] bg-[#EB5024] text-white font-medium text-sm rounded-xl flex items-center justify-center gap-2 shadow-md'
+                className='w-full h-[3.75rem] bg-[#EB5024] text-white font-medium text-sm rounded-xl flex items-center justify-center gap-2 shadow-md'
             >
                 <ShoppingCartOutlined style={{ width: '1rem', height: '1rem' }} />В корзину – {total.toLocaleString()} ₸{' '}
                 {hasDiscount && <span className='line-through text-white/60 ml-1'>{oldTotal?.toLocaleString()} ₸</span>}

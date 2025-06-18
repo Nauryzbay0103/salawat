@@ -1,5 +1,11 @@
-const Basket = () => {
-  return <section></section>;
-};
+import BasketContent from '@/components/views/Basket/BasketContent/BasketContent'
 
-export default Basket;
+const Basket = () => {
+    return (
+        <section>
+            <BasketContent />
+        </section>
+    )
+}
+
+export default Basket
