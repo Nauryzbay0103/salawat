@@ -1,0 +1,24 @@
+.homeHeader {
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+  top: rem(70);
+  left: 0;
+  img {
+    width: rem(121);
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 rem(22);
+  }
+}
+.login_button {
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: rem(10);
+  font-size: rem(16);
+}

@@ -1,0 +1,32 @@
+@use "functions" as *;
+
+:root {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #0f0f0f;
+}
+
+html {
+  font-size: vw(16);
+}
+
+body {
+  background: var(--bg-color);
+}
+
+body,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: inherit;
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  background: none;
+}

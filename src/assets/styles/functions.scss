@@ -1,0 +1,10 @@
+$design-width: 393; // Базовая ширина макета
+$base-font-size: 16;
+
+@function vw($value) {
+  @return calc(($value / $design-width) * 100vw);
+}
+
+@function rem($value) {
+  @return calc(($value / $base-font-size) * 1rem);
+}

@@ -1,0 +1,35 @@
+.categories {
+    display: flex;
+    overflow-x: scroll;
+    padding: rem(21) 0 0;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .category {
+        min-width: fit-content;
+
+        &:first-child {
+            margin-left: rem(16);
+        }
+
+        &:last-child {
+            margin-right: rem(16);
+        }
+
+        &__link {
+            padding: rem(0) rem(13);
+            line-height: rem(31);
+            color: #00000080;
+
+            &.active {
+                font-weight: 500;
+                color: #000000;
+                border-radius: rem(7);
+                background-color: #eeeeee;
+            }
+        }
+    }
+}

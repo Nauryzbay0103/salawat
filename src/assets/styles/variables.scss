@@ -1,0 +1,14 @@
+:root {
+  --blue-green-gradient:
+    linear-gradient(262.23deg, #01d58a -1.12%, #006fc2 101.31%),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 54.69%, rgba(0, 0, 0, 0.2) 100%);
+  --carousel-bg-gradient: rgba(0, 0, 0, 0.59);
+
+  --bg-color: #f7f7f7;
+  --green-light: #4ebc73;
+}
